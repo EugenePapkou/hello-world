@@ -1,0 +1,30 @@
+<People>	
+	<Person age="30">
+		<firstName>Bon</firstName>
+		<lastName>Scott</lastName>
+	</Person>	
+	<Person age="35">
+		<firstName>Jimmy</firstName>
+		<lastName>Page</lastName>
+	</Person>
+	<Person age="60">
+		<firstName>Jan</firstName>
+		<lastName>Gillan</lastName>
+	</Person>
+	<Person age="65">
+		<firstName>Roger</firstName>
+		<lastName>Waters</lastName>
+	</Person>
+	<Person age="20">
+		<firstName>I</firstName>
+		<lastName>Bac'kavich</lastName>
+	</Person>
+	<Person age="17">
+		<firstName>Victory</firstName>
+		<lastName>Zapolska</lastName>
+	</Person>
+	<Person age="23">
+		<firstName>Maria</firstName>
+		<lastName>Chornovil</lastName>
+	</Person>		
+</People>
