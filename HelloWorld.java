@@ -11,7 +11,7 @@ public class HelloWorld
         ArrayList<Person> people = new ArrayList<>();
         try
         {
-            // создание DOM-анализатора
+            // creating DOM-analyzer
             DocumentBuilderFactory abc = DocumentBuilderFactory.newInstance();
             DocumentBuilder q = abc.newDocumentBuilder();
             BufferedReader d = 
@@ -19,7 +19,7 @@ public class HelloWorld
             System.out.println("Please enter name of file .xml");
             Document doc_xml = q.parse(d.readLine());
            
-            //возвращает список дочерних элементов с определенным именем
+            // return a list with  child elements which has a specific name
             NodeList nodeLst = doc_xml.getElementsByTagName("Person");
             
             for(int je = 0; je < nodeLst.getLength(); je++)
